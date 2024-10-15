@@ -1,0 +1,12 @@
+ब्लॉक स्कोप का मतलब है कि वेरिएबल को केवल कर्ली ब्रेसेज {} के अंदर ही एक्सेस किया जा सकता है। भले ही कर्ली ब्रैकेट किसी फ़ंक्शन का हो या if else स्टेटमेंट का। लेकिन var की कंडीशन में यह कर्ली ब्रैकेट को अनदेखा कर देगा क्योंकि यह ब्लॉक लेवल स्कोप नहीं है और फ़ंक्शन को खोजने की कोशिश करेगा और अगर इसे फ़ंक्शन मिल जाता है तो यह उस फ़ंक्शन को अपना स्कोप मान लेगा चाहे वह एक्सप्रेसन फ़ंक्शन हो या एरो फ़ंक्शन। और अगर इसे फ़ंक्शन नहीं मिलता है तो यह खुद को ग्लोब स्कोप में मान लेगा और इस कंडीशन में var को कहीं से भी एक्सेस किया जा सकता है।
+
+
+
+What exactly is Scope?
+Scope refers to the area where an item (such as a function or variable) is visible and accessible to other code.
+
+Note:
+
+Scope means area, space, or region.
+Global scope means global space or a public space.
+Local scope means a local region or a restricted region.
