@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubbling and Capturing</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body style="font-family: cursive">
+    <h1>Event Bubbling and Capturing</h1>
+    <p>
+      event bubbling javascript का एक मैकेनिज्म है जिसमें एक इवेंट अपने टारगेटेड
+      एलिमेंट से start होता है और डोम hierarchy में अपने पैरेंट तक जाता हैं
+      (targetedElement--> body --> document --> window )
+    </p>
+    <p>
+      event capture javascript propagation process का एक फेस है जिसमें इवेंट
+      सबसे पहले रूट element पर ट्रिगर होता है और अपने टारगेटेड एलिमेंट तक जाता
+      हैं (window --> document --> body --> targetedElement )
+    </p>
+    <div class="green">
+      <div class="pink">
+        <div class="blue"></div>
+      </div>
+    </div>
+  </body>
+</html>

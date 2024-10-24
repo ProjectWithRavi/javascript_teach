@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Event Listeners</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body style="font-family: cursive">
+    <p>
+      event : action ही एक इवेंट है इवेंट कुछ भी हो सकता है जो यूजर इनपुट से आता
+      हैं जैसे क्लिक,की key press, माउस मूवमेंट । इसके अलावा page का load होना,
+      window ka resizing होना, और फॉर्म का सबमिट होना
+    </p>
+    <p>
+      event listener ek javascript का एक फंशन है जो specific एलिमेंट पर specific
+      इवेंट का घटित होने का इंतजार करता है जब कोई इवेंट घटित होता है तो event
+      listener अपने associate फंशन के साथ रन हो जाता
+    </p>
+    <!-- <h1 onclick="console.log('click me')">Adding Event Listeners</h1> -->
+    <!-- <h1 onclick="sayHi()">second Heading</h1> -->
+
+    <h1>Adding Event Listeners</h1>
+    <h2 ondblclick="console.log('double click')">third Heading</h2>
+    <div class="container">
+      <div class="card add-card" title="Add New Card">+</div>
+    </div>
+  </body>
+</html>
