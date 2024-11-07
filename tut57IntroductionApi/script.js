@@ -16,6 +16,12 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
       .then(json => console.log(json))
 */
 
+// fetch("https://jsonplaceholder.typicode.com/todos/1").then((value) => {
+//   console.log(value);
+// });
+
+console.log(fetch("https://jsonplaceholder.typicode.com/todos/1"));
+
 // const image = document.querySelector("img");
 // const button = document.querySelector("button");
 

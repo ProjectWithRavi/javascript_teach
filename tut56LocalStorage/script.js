@@ -8,8 +8,10 @@ const ageInput = document.querySelector(".age");
 
 // ****************************************************************************
 
+// console.log(localStorage.myname);
 // nameElement.innerText = localStorage.myName;
-// nameElement.innerText = localStorage.getItem("myName");
+// nameElement.innerText = localStorage.getItem("myname");
+// localStorage.setItem("age", 20);
 
 // ************************************************************************
 

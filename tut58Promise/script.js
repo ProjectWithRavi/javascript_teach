@@ -2,6 +2,10 @@
 // const myPromise = new Promise(() => {});
 // console.log(myPromise);
 
+// a.catch((value) => {
+//   console.log(value);
+// });
+
 // ********************* callback take two argument resolve ,reject
 // const myPromise = new Promise((resolve, reject) => {
 //   resolve("hello");
